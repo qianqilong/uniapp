@@ -1,0 +1,118 @@
+{
+    "pages": [
+        {
+            "path": "pages/index/index",
+            "style": {}
+        },
+        {
+            "path": "pages/sort/sort",
+            "style": {}
+        },
+        {
+            "path": "pages/collection/collection",
+            "style": {}
+        },
+        {
+            "path": "pages/mine/mine",
+            "style": {}
+        },
+        {
+            "path": "pages/index/indexList/indexList",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/index/indexRead/indexRead",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/index/indexMusic/indexMusic",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/index/indexKnowledge/indexKnowledge",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/index/indexMusic/indexMusicDetail",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/index/indexBookDetail/indexBookDetail",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/index/indexReading/indexReading",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8",
+        "navigationStyle": "custom"
+    },
+    "tabBar": {
+        "selectedColor": "#dc4d2f",
+        "backgroundColor": "#f3f7fc",
+        "borderStyle": "black",
+        "fontSize": "12px",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "static/tabbar/index.png",
+                "selectedIconPath": "static/tabbar/indexed.png"
+            },
+            {
+                "pagePath": "pages/sort/sort",
+                "text": "分类",
+                "iconPath": "static/tabbar/sort.png",
+                "selectedIconPath": "static/tabbar/sorted.png"
+            },
+            {
+                "pagePath": "pages/collection/collection",
+                "text": "收藏",
+                "iconPath": "static/tabbar/collection.png",
+                "selectedIconPath": "static/tabbar/collectioned.png"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "text": "我的",
+                "iconPath": "static/tabbar/mine.png",
+                "selectedIconPath": "static/tabbar/mined.png"
+            }
+        ]
+    },
+    "condition": { //模式配置，仅开发期间生效
+        "current": 0, //当前激活的模式(list 的索引项)
+        "list": [
+            {
+                "name": "", //模式名称
+                "path": "", //启动页面，必选
+                "query": "" //启动参数，在页面的onLoad函数里面得到
+            }
+        ]
+    }
+}
